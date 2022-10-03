@@ -1,0 +1,104 @@
+ //TASK04
+        /*  I love java olan bir String oluşturun.
+            Bu cümlenin toplam karakter sayısını yazdırın.*/
+        String x="I love JAVA";
+        System.out.println(x.length());
+--------------------------------------------------------------------
+        //TASK05
+         /*    Sprint planning olan bir String oluşturun.
+        Bu dizenin toplam karakter sayısını yazdırın.  */
+        String str ="Sprint planning";
+        System.out.println(str.length());
+--------------------------------------------------------------------
+        //TASK06
+        /*    paper olan bir String oluşturun.
+          String'i büyük harfe çevirin ve yazdırın.
+          örn: apple > APPLE   */
+        String klm = "paper";
+        System.out.println(klm.toUpperCase());
+------------------------------------------------------------------
+        //TASK07
+         /* OraNge olan bir String oluşturun.
+           String'i küçük harfe çevirin ve yazdırın.
+           örn: APPLE > apple  */
+        String kelime = "OraNge";
+        System.out.println(kelime.toLowerCase());
+------------------------------------------------------------------
+        //TASK08
+        /*  New Jersey olan bir String oluşturun.
+        String'i büyük harfe çevirin ve yazdırın  */
+        String kelime1 = "New Jersey";
+        System.out.println(kelime1.toUpperCase());
+-----------------------------------------------------------------
+        //TASK09
+        /*  New York olan bir String oluşturun.
+            String'i küçük harfe çevirin ve yazdırın.  */
+        String shr = "New York";
+        System.out.println(shr.toLowerCase());
+----------------------------------------------------------------
+         //TASK10
+         /*  PADDLE olan bir String oluşturun.
+            String'i küçük harfe çevirin ve yazdırın.  */
+        String k="PADDLE";
+        System.out.println(k.toLowerCase());
+----------------------------------------------------------------
+        //TASK11
+        /*  apple olan bir String oluşturun.
+        String'in içinde app olup olmadığını doğrula. */
+        String meyve = "apple";
+        System.out.println(meyve.contains("app"));
+-----------------------------------------------------------------
+        //TASK12
+        /*  apple kelimesinden  oluşan bir String yaz.
+            String'in içinde App olup olmadığını doğrula.  */
+        String apple = "apple";
+        System.out.println(apple.contains("App"));
+-----------------------------------------------------------------
+        //TASK13
+         /*  orange kelimesinden oluşan bir String oluşturun.
+            String'in Apple'a eşit olup olmadığını doğrulayın. */
+        String meyve1 = "orange";
+        String meyve2 = "Apple";
+        System.out.println(meyve1.equals(meyve2));
+------------------------------------------------------------------
+        //TASK14
+        /*  apple  olan  bir String oluşturun.
+            String'in apple'a eşit olup olmadığını doğrulayın.
+            Büyük harf veya küçük harf önemli değildir.    */
+        String c="apple";
+        System.out.println(c.equalsIgnoreCase("apple"));
+--------------------------------------------------------------------
+        //TASK16
+         /*  Florida kelimesinden bir String oluşturun.
+            Florida kelimesinin içindeki, sadece  'o'  harfinin bulunduğu indexini yazdırın.  */
+        String a="Florida";
+        System.out.println(a.indexOf("o"));
+---------------------------------------------------------------------------
+        //TASK17
+        /*  Thank you olan bir String oluşturun.
+            Thank you içindeki, sadece  'y' harfinin bulunduğu konumu yazdırın.
+           Kodu aşağıya yazınız.*/
+        String qa ="Thank you";
+        System.out.println("thank you cümlesinde y harfinin bulunduğu konum : "  +qa.indexOf("y"));
+------------------------------------------------------------------------------
+        //TASK18
+         /*  String s1 = "      Clarus  Way          ";
+            s1 String'inin önündeki ve arkasındaki boşlukları kaldırın.
+            s1 String'ini yazdırın.  */
+        String strX="    ClaRUS Way       ";
+        System.out.println(strX.trim());
+----------------------------------------------------------------------------
+        //TASK19
+         /* Main method oluşturun.
+            Mouse değerinde bir String oluştur.
+            Mouse String'inin 2. sırasındaki karakteri yazdırın.  */
+        String s = "Mouse";
+        System.out.println(s.charAt(2));
+        System.out.println(s.substring(2, 3));
+----------------------------------------------------------------------------
+        //TASK20
+         /*  String s1 = "    Chocolade     ";
+            s1 String'inin başındaki ve sonundaki boşlukları kaldırın.
+            s1 String'ini yazdırın.  */
+        String a1="   Chocolade   ";
+        System.out.println(a1.trim());

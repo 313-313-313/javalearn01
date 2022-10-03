@@ -1,0 +1,6 @@
+/*
+ byte < short < int < long < float < double
+ Explicit Narrowing Casting ->Buyuk data type'larini kucuk data type'larina cevirme islemini veri kaybndan dolayı
+ Java otomatik olarak yapmaz. kod ile teyit ister...
+
+ */
