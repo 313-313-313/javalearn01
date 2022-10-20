@@ -20,7 +20,7 @@ public class Q04_SwitchCase {
     aksi halde: izin gunu
     (if deyimini KULLANMAYIN)
 */
-        String day="Monday";
+        String day="Friday";
         switch(day){
             case "Monday":
             case"Tuesday":
