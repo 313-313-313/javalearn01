@@ -2,9 +2,9 @@ package j18_Constructor;
 
 public class C07_Ogrtm {//ogrtmn obj için kalıphane
     //Fields
-    String  isim;
+    public String  isim;
     int tecrube;
-    int kıdem=5;
+    public int kıdem=5;
 
 
     public C07_Ogrtm(String isim, int tecrube) {//2p'li cons
