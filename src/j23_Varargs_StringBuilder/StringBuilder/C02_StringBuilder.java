@@ -97,6 +97,11 @@ bir sb ile bir String'i compare etmek istersek Java CTE verir
         System.out.println("str1.equals(sb6.toString()) = " + str1.equals(sb6.toString()));//True
 
 
+        StringBuilder strB = new StringBuilder("aspendos");
+
+        strB.insert(0,"K");
+
+        System.out.println(strB);
 
 
 

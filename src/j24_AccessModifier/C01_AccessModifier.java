@@ -20,7 +20,6 @@ package j24_AccessModifier;
 
 public class C01_AccessModifier {
 
-
     private int privateYas = 24;
     int defaultYas = 33; //Access modifier yazılmazsa default olarak tanımlanır
     protected int protectedYas = 40;
@@ -32,27 +31,15 @@ public class C01_AccessModifier {
     public C01_AccessModifier(int privateYas, int defaultYas) {//public 2p'li cos.
         System.out.println("agama public cons. selam :)");
 
-
     }
 
     private void privateMethod(){
         System.out.println("private method'dan agaya selam");
     }
     protected void protectedMethod(){
+        // public void protectedMethod(){
         System.out.println("protected method'dan agaya selam");
 
     }
-    C01_AccessModifier obj3=new C01_AccessModifier();//private cons call edilid aynı class
+    // C01_AccessModifier obj3=new C01_AccessModifier();//private cons call edilid aynı class
 }
-
-
-
-
-
-
-
-
-
-
-
-

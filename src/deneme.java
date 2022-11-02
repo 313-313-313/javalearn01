@@ -5,32 +5,14 @@ public class deneme {
 
 
 
-      // int x=10;
-       // int y=13;
+        StringBuilder strB1 = new StringBuilder("AVATAR");
 
-      // int x; int y;
-     //  x=10; y=13;
-    //int harf='a';
-    // System.out.println(harf);
-        //char harf='b';
-        //System.out.println(harf);
-        //System.out.println('a'+'b');
-//String s="";
- //byte b1=500;
-       // float f1=1.34f;
-       // System.out.println(f1);
+        strB1.subSequence(1,5);
 
-      //  System.out.println('B' + 0);
-       // System.out.println('Allians');
-      //  System.out.println('b' > 'B');
-      //  char chr='';
-       // System.out.println("chr = " + chr);
-      //  System.out.println(3+4>=7);
-       // System.out.println(3 + 4 * (4 + 5));
-        Scanner scan=new Scanner(System.in);
-        System.out.println( "lütfen sayı giriniz");
+        strB1.reverse();
 
-        int sayı=scan.nextInt();
-        System.out.println(sayı*4);
+        strB1.deleteCharAt(2);
+
+        System.out.println(strB1);
     }
 }

@@ -1,15 +1,13 @@
 public class QUIZZZ {
     public static void main(String[] args) {
-        int sonuc = 75;
+        StringBuilder strB1 = new StringBuilder(2+ "apple" +3 + 8 + "banana");
 
-        if (sonuc >= 70)
+        String isim = "Elly";
 
-            System.out.print("B");
+        strB1.append(isim,1,3);
 
-        if (sonuc >= 60)
+        strB1.delete(3,5);
 
-            System.out.print("C");
-
-        else System.out.println("D");
+        System.out.println(strB1);
     }
 }
