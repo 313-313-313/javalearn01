@@ -1,6 +1,6 @@
 package j25_Encapsulation.encapsulation03;
 
-public class Runner {
+public class Runner { //3. step
     public static void main(String[] args) {
 //4. step
         Arac honda=new Arac("accord","siyah",-200,2012);
@@ -15,5 +15,7 @@ public class Runner {
         System.out.println("haci murat"+haciMurat);
         System.out.println("isvec tankı"+volvo);
 
+    }
+    private static void methodHaluk() {
     }
 }
