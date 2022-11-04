@@ -9,8 +9,8 @@ Chil class obj olmadan parent class variable ve methotlara ulaşabilir.
         System.out.println("Agam ahan da kedi p'siz cons...");
 
     }
-    public Kedi(String str){ //p'li cons
-        this();
+    public Kedi(String str){ //parametreli cons.
+        this(); //Bu class ın parametresiz cons'udur.
         System.out.println(super.c);
         System.out.println("Agam ahan da kedi p'siz cons...");
 
