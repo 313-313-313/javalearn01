@@ -50,6 +50,39 @@ ahan da Trick kösesinde bugun : offer ve add farkı ->  eger queue coll. eleman
  add meth Exception fırlatır.offer ise true-false return eder.
 
 */
+        Queue<Integer> queue = new LinkedList<>();
+
+        queue.add(3);
+
+        queue.add(5);
+
+        queue.add(7);
+
+        queue.add(9);
+
+        queue.add(11);
+
+        queue.add(13);
+
+
+
+        int count = 0;
+
+        while (queue.isEmpty() == false) {
+
+            queue.remove();
+
+            count++;
+
+            if(count == 3) {
+
+                break;
+
+            }
+
+        }
+
+        System.out.println(queue);
     }
 }
 
