@@ -26,7 +26,7 @@ public class C10_object {
         System.out.println("\n   ***   ");
         System.out.println("\n   ***   ");
         System.out.println("\n   ***   ");
-        System.out.println("\n   ***   ");
+        System.out.println("\n   ***   "); 
 
     }//main sonu
 
